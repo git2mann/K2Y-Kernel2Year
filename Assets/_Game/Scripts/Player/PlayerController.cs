@@ -1,75 +1,37 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement Settings")]
     public float moveSpeed = 5f;
-    public float jumpForce = 12f;
-    
-    [Header("Ground Detection")]
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
-    public LayerMask groundLayerMask = 1;
-    
+    public float jumpForce = 7f;
+    public LayerMask groundLayer;
+
     private Rigidbody2D rb;
     private bool isGrounded;
-    private float horizontalInput;
-    
-    void Start()
+
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        
-        if (groundCheck == null)
-        {
-            GameObject groundCheckObj = new GameObject("GroundCheck");
-            groundCheckObj.transform.SetParent(transform);
-            groundCheckObj.transform.localPosition = Vector3.down * 0.5f;
-            groundCheck = groundCheckObj.transform;
-        }
     }
-    
+
     void Update()
     {
-        GetInput();
-        CheckGrounded();
-    }
-    
-    void FixedUpdate()
-    {
-        Move();
-    }
-    
-    private void GetInput()
-    {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        float moveInput = Input.GetAxis("Horizontal");
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+
+        // Jump
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            Jump();
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
-    
-    private void Move()
+
+    bool IsGrounded()
     {
-        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
-    }
-    
-    private void Jump()
-    {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-    }
-    
-    private void CheckGrounded()
-    {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayerMask);
-    }
-    
-    void OnDrawGizmosSelected()
-    {
-        if (groundCheck != null)
-        {
-            Gizmos.color = isGrounded ? Color.green : Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-        }
+        Vector2 origin = transform.position;
+        Vector2 size = GetComponent<Collider2D>().bounds.size;
+        RaycastHit2D hit = Physics2D.BoxCast(origin, size, 0f, Vector2.down, 0.1f, groundLayer);
+        return hit.collider != null;
     }
 }
