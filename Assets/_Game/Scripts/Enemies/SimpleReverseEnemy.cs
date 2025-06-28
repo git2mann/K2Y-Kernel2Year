@@ -34,7 +34,7 @@ public class SimpleReverseEnemy : MonoBehaviour, IReverseTimeObject
     
     // Action recording
     private Vector3 lastPosition;
-    private bool wasGrounded = true;
+    // private bool wasGrounded = true;
     
     void Start()
     {
