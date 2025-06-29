@@ -46,7 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> origin/zoe-development
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -138,7 +142,11 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> origin/zoe-development
     internalID: 0
     vertices: []
     indices: 
