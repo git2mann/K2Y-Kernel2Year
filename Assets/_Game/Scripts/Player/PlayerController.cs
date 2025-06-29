@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 6f;
-    [SerializeField] private float acceleration = 20f;
-    [SerializeField] private float deceleration = 25f;
+    [SerializeField] private float acceleration = 25f;
+    [SerializeField] private float deceleration = 15f;
     [SerializeField] private float airControl = 0.7f; // Reduced control in air
     
     [Header("Jump Settings")]
@@ -748,19 +748,14 @@ public class PlayerController : MonoBehaviour
             currentSpeed += Mathf.Sign(speedDifference) * maxChange;
         }
         
-        // Emergency fix: If player should be moving but isn't, force correction
-        if (Mathf.Abs(horizontalInput) > 0.8f && Mathf.Abs(rb.linearVelocity.x) < 0.5f && isGrounded)
-        {
-            Debug.Log("Emergency movement correction applied!");
-            currentSpeed = horizontalInput * moveSpeed * 0.5f; // Gentle restart
-        }
+        // REMOVED THE EMERGENCY CORRECTION - it was causing the problem!
         
         // Apply smooth movement to rigidbody
         Vector2 newVelocity = new Vector2(currentSpeed, rb.linearVelocity.y);
         rb.linearVelocity = newVelocity;
         
-        // Debug info to track the issue
-        if (Time.frameCount % 120 == 0 && Mathf.Abs(horizontalInput) > 0) // Every 2 seconds when moving
+        // Optional: Much less frequent debug info (only if really needed)
+        if (Time.frameCount % 300 == 0 && Mathf.Abs(horizontalInput) > 0) // Every 5 seconds when moving
         {
             Debug.Log($"Movement Debug - Input: {horizontalInput:F2}, CurrentSpeed: {currentSpeed:F2}, TargetSpeed: {targetSpeed:F2}");
         }
