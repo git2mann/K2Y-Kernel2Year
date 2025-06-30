@@ -674,11 +674,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: c46f1a91-dbf7-4ced-9ea0-82e644d1224f
+  cloudProjectId: b2be13c4-d219-4520-9157-99f648c61590
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: K2Y-Kernel2Year
-  organizationId: hyperl-dica
+  organizationId: manlikesean
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

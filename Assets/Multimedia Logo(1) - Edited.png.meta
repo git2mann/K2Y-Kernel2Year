@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 92ad1f26f57d2aa46b2487fe3743f16c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5837540782865973961
+    second: Multimedia Logo(1) - Edited_0
+  - first:
+      213: 7101699988966115144
+    second: Multimedia Logo(1) - Edited_1
+  - first:
+      213: -159061379470063146
+    second: Multimedia Logo(1) - Edited_2
+  - first:
+      213: 567108968432727558
+    second: Multimedia Logo(1) - Edited_3
+  - first:
+      213: 3601196043140752966
+    second: Multimedia Logo(1) - Edited_4
+  - first:
+      213: -1247037487395991990
+    second: Multimedia Logo(1) - Edited_5
+  - first:
+      213: 5421534436811882667
+    second: Multimedia Logo(1) - Edited_6
+  - first:
+      213: -1610999804761968385
+    second: Multimedia Logo(1) - Edited_7
+  - first:
+      213: -4298369974799168258
+    second: Multimedia Logo(1) - Edited_8
+  - first:
+      213: 756140752339550951
+    second: Multimedia Logo(1) - Edited_9
+  - first:
+      213: 6274217154615718044
+    second: Multimedia Logo(1) - Edited_10
+  - first:
+      213: 4127868986699882616
+    second: Multimedia Logo(1) - Edited_11
+  - first:
+      213: -7184179632527424539
+    second: Multimedia Logo(1) - Edited_12
+  - first:
+      213: 6057505485696732894
+    second: Multimedia Logo(1) - Edited_13
+  - first:
+      213: 6259419095111813907
+    second: Multimedia Logo(1) - Edited_14
+  - first:
+      213: 1878276589667120099
+    second: Multimedia Logo(1) - Edited_15
+  - first:
+      213: -3683449769704478740
+    second: Multimedia Logo(1) - Edited_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 269
+        width: 138
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dfa6b2693ecfea0800000000000000
+      internalID: -5837540782865973961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 504
+        width: 104
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84788b7738e4e8260800000000000000
+      internalID: 7101699988966115144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 270
+        width: 139
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d90433a486eacdf0800000000000000
+      internalID: -159061379470063146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 370
+        width: 34
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606fe542a96ced700800000000000000
+      internalID: 567108968432727558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 217
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64662f5a8b40af130800000000000000
+      internalID: 3601196043140752966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 207
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e8a262302a1bee0800000000000000
+      internalID: -1247037487395991990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 207
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba048b388d82d3b40800000000000000
+      internalID: 5421534436811882667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 217
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff070f7863494a9e0800000000000000
+      internalID: -1610999804761968385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 217
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc04ea184f1954c0800000000000000
+      internalID: -4298369974799168258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_9
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 217
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2456f020a5e7a00800000000000000
+      internalID: 756140752339550951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 217
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c903888824f721750800000000000000
+      internalID: 6274217154615718044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 241
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870299719f2294930800000000000000
+      internalID: 4127868986699882616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_12
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 217
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e34b9800baac4c90800000000000000
+      internalID: -7184179632527424539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 217
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede0feb2525901450800000000000000
+      internalID: 6057505485696732894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 246
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bcf60d08cedd650800000000000000
+      internalID: 6259419095111813907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 217
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e37a055b9af01a10800000000000000
+      internalID: 1878276589667120099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Multimedia Logo(1) - Edited_16
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 217
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce725c043f1c1ecc0800000000000000
+      internalID: -3683449769704478740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Multimedia Logo(1) - Edited_0: -5837540782865973961
+      Multimedia Logo(1) - Edited_1: 7101699988966115144
+      Multimedia Logo(1) - Edited_10: 6274217154615718044
+      Multimedia Logo(1) - Edited_11: 4127868986699882616
+      Multimedia Logo(1) - Edited_12: -7184179632527424539
+      Multimedia Logo(1) - Edited_13: 6057505485696732894
+      Multimedia Logo(1) - Edited_14: 6259419095111813907
+      Multimedia Logo(1) - Edited_15: 1878276589667120099
+      Multimedia Logo(1) - Edited_16: -3683449769704478740
+      Multimedia Logo(1) - Edited_2: -159061379470063146
+      Multimedia Logo(1) - Edited_3: 567108968432727558
+      Multimedia Logo(1) - Edited_4: 3601196043140752966
+      Multimedia Logo(1) - Edited_5: -1247037487395991990
+      Multimedia Logo(1) - Edited_6: 5421534436811882667
+      Multimedia Logo(1) - Edited_7: -1610999804761968385
+      Multimedia Logo(1) - Edited_8: -4298369974799168258
+      Multimedia Logo(1) - Edited_9: 756140752339550951
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
