@@ -7,31 +7,37 @@ public class GlitchDeathEffect : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public float flickerDuration = 0.5f;
     public float flickerInterval = 0.05f;
+    public AudioClip deathSound; // Drag in your sound here
 
-    private Rigidbody2D rb; // 🟢 FIX: Declare rb here
+    private AudioSource audioSource;
 
     void Awake()
     {
         if (spriteRenderer == null)
             spriteRenderer = GetComponent<SpriteRenderer>();
 
-        rb = GetComponent<Rigidbody2D>(); // 🟢 Get the Rigidbody2D early
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void GlitchOutAndDie()
     {
-        // Freeze movement
+        // Disable movement
         var moveScript = GetComponent<PlayerMovement>();
         if (moveScript != null)
         {
             moveScript.canMove = false;
         }
 
+        var rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            rb.linearVelocity = Vector2.zero;
-            rb.bodyType = RigidbodyType2D.Kinematic; // freeze physics too
+            rb.velocity = Vector2.zero;
+            rb.bodyType = RigidbodyType2D.Kinematic;
         }
+
+        // Play death sound
+        if (audioSource && deathSound)
+            audioSource.PlayOneShot(deathSound);
 
         StartCoroutine(FlickerThenRestart());
     }
@@ -48,6 +54,7 @@ public class GlitchDeathEffect : MonoBehaviour
         }
 
         spriteRenderer.enabled = false;
+
         yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

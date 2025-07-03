@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,10 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
-    public bool canMove = true; // New: movement toggle
+    public bool canMove = true;
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    private float timeSinceGrounded;
+    private float maxAirTime = 2f; 
     private AudioSource jumpSound;
     private SpriteRenderer spriteRenderer;
 
@@ -24,9 +27,24 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return; // Don't accept input when disabled
+        if (!canMove) return;
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (isGrounded)
+        {
+            timeSinceGrounded = 0f;
+        }
+        else
+        {
+            timeSinceGrounded += Time.deltaTime;
+
+            if (timeSinceGrounded >= maxAirTime)
+            {
+            
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -37,19 +55,14 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!canMove) return; // Skip physics updates when disabled
+        if (!canMove) return;
 
         float moveX = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        // Flip player sprite if moving left or right
         if (moveX > 0)
-        {
-            spriteRenderer.flipX = false; // Face right
-        }
+            spriteRenderer.flipX = false;
         else if (moveX < 0)
-        {
-            spriteRenderer.flipX = true;  // Face left
-        }
+            spriteRenderer.flipX = true;
     }
 }

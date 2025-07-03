@@ -7,13 +7,9 @@ public class EnemyKill : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Player died!");
-            // Option 1: Disable player
-            // collision.gameObject.SetActive(false);
             collision.GetComponent<GlitchDeathEffect>()?.GlitchOutAndDie();
 
-
-            // Option 2: Restart scene (for testing)
+        
         }
     }
 }
