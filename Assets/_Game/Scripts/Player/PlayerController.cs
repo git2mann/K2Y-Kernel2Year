@@ -1,6 +1,11 @@
 using UnityEngine;
 
+<<<<<<< Updated upstream
 [RequireComponent(typeof(Rigidbody2D))]
+=======
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D), typeof(SpriteRenderer))]
+[AddComponentMenu("_Game/Scripts/Player/PlayerController")]
+>>>>>>> Stashed changes
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
