@@ -12,11 +12,8 @@ GameObject:
   - component: {fileID: 8586734676458434653}
   - component: {fileID: 8166122543424075272}
   - component: {fileID: 6321033145833359125}
-<<<<<<< HEAD
-=======
   - component: {fileID: 7660152852730181897}
   - component: {fileID: 542694281465055962}
->>>>>>> origin/zoe-development
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
