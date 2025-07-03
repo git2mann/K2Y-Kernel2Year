@@ -1,0 +1,15 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class EnemyKill : MonoBehaviour
+{
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.GetComponent<GlitchDeathEffect>()?.GlitchOutAndDie();
+
+        
+        }
+    }
+}
