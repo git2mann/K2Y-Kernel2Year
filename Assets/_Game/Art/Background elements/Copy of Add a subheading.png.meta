@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: ba50d8c9d45e6df43a69602476797612
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6838884153746181525
+    second: Copy of Add a subheading_0
+  - first:
+      213: 5105462171996116116
+    second: Copy of Add a subheading_1
+  - first:
+      213: -4879176606750772469
+    second: Copy of Add a subheading_2
+  - first:
+      213: -534840029736887638
+    second: Copy of Add a subheading_3
+  - first:
+      213: 355040420584968630
+    second: Copy of Add a subheading_4
+  - first:
+      213: -6072916048759545808
+    second: Copy of Add a subheading_5
+  - first:
+      213: 276678647567205749
+    second: Copy of Add a subheading_6
+  - first:
+      213: 8995790140583196359
+    second: Copy of Add a subheading_7
+  - first:
+      213: 2998101329826696572
+    second: Copy of Add a subheading_8
+  - first:
+      213: 8764628984853574113
+    second: Copy of Add a subheading_9
+  - first:
+      213: 544890509244058566
+    second: Copy of Add a subheading_10
+  - first:
+      213: 7335964180238911314
+    second: Copy of Add a subheading_11
+  - first:
+      213: -7433501655780056576
+    second: Copy of Add a subheading_12
+  - first:
+      213: 2748167117299122388
+    second: Copy of Add a subheading_13
+  - first:
+      213: 4337577890034156298
+    second: Copy of Add a subheading_14
+  - first:
+      213: 6177869341876613701
+    second: Copy of Add a subheading_15
+  - first:
+      213: 8169018869892735516
+    second: Copy of Add a subheading_16
+  - first:
+      213: 8326793665884703860
+    second: Copy of Add a subheading_17
+  - first:
+      213: 4990773611833112510
+    second: Copy of Add a subheading_18
+  - first:
+      213: -4918203642100738984
+    second: Copy of Add a subheading_19
+  - first:
+      213: -2672028512187725695
+    second: Copy of Add a subheading_20
+  - first:
+      213: -6169212713806761067
+    second: Copy of Add a subheading_21
+  - first:
+      213: 7616838709778997272
+    second: Copy of Add a subheading_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Copy of Add a subheading_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 823
+        width: 585
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dc61467e898ee50800000000000000
+      internalID: 6838884153746181525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1034
+        width: 246
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d508abce3ad640800000000000000
+      internalID: 5105462171996116116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1138
+        width: 268
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0379362abea94cb0800000000000000
+      internalID: -4879176606750772469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_3
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 504
+        width: 460
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa9fdf93ddd398f0800000000000000
+      internalID: -534840029736887638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_4
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 928
+        width: 144
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b15fd5a16b5de400800000000000000
+      internalID: 355040420584968630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_5
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 822
+        width: 228
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0302be2870ba8bba0800000000000000
+      internalID: -6072916048759545808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 926
+        width: 249
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575cd2993c5f6d300800000000000000
+      internalID: 276678647567205749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 288
+        width: 463
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c63c6b987777dc70800000000000000
+      internalID: 8995790140583196359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_8
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 417
+        width: 986
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d42fc56456b9920800000000000000
+      internalID: 2998101329826696572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 714
+        width: 235
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e13a4eef9732a970800000000000000
+      internalID: 8764628984853574113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 712
+        width: 481
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb49fcf707df8700800000000000000
+      internalID: 544890509244058566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 712
+        width: 479
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2574128ed849ec560800000000000000
+      internalID: 7335964180238911314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_12
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 289
+        width: 266
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002a3f1e0a5e6d890800000000000000
+      internalID: -7433501655780056576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 607
+        width: 343
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0060ace63732620800000000000000
+      internalID: 2748167117299122388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 353
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0303190c1c223c30800000000000000
+      internalID: 4337577890034156298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 397
+        width: 476
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542f4574f633cb550800000000000000
+      internalID: 6177869341876613701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 42
+        width: 479
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c126b6f716f2e5170800000000000000
+      internalID: 8169018869892735516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_17
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 79
+        width: 376
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cc70dc8b6be8370800000000000000
+      internalID: 8326793665884703860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 258
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7b4bf582ac24540800000000000000
+      internalID: 4990773611833112510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 78
+        width: 267
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8549d8368d70fbbb0800000000000000
+      internalID: -4918203642100738984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_20
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 0
+        width: 250
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188c555a93c0bead0800000000000000
+      internalID: -2672028512187725695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_21
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 0
+        width: 375
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59379b109bd826aa0800000000000000
+      internalID: -6169212713806761067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copy of Add a subheading_22
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 450
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81062d7637274b960800000000000000
+      internalID: 7616838709778997272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Copy of Add a subheading_0: 6838884153746181525
+      Copy of Add a subheading_1: 5105462171996116116
+      Copy of Add a subheading_10: 544890509244058566
+      Copy of Add a subheading_11: 7335964180238911314
+      Copy of Add a subheading_12: -7433501655780056576
+      Copy of Add a subheading_13: 2748167117299122388
+      Copy of Add a subheading_14: 4337577890034156298
+      Copy of Add a subheading_15: 6177869341876613701
+      Copy of Add a subheading_16: 8169018869892735516
+      Copy of Add a subheading_17: 8326793665884703860
+      Copy of Add a subheading_18: 4990773611833112510
+      Copy of Add a subheading_19: -4918203642100738984
+      Copy of Add a subheading_2: -4879176606750772469
+      Copy of Add a subheading_20: -2672028512187725695
+      Copy of Add a subheading_21: -6169212713806761067
+      Copy of Add a subheading_22: 7616838709778997272
+      Copy of Add a subheading_3: -534840029736887638
+      Copy of Add a subheading_4: 355040420584968630
+      Copy of Add a subheading_5: -6072916048759545808
+      Copy of Add a subheading_6: 276678647567205749
+      Copy of Add a subheading_7: 8995790140583196359
+      Copy of Add a subheading_8: 2998101329826696572
+      Copy of Add a subheading_9: 8764628984853574113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

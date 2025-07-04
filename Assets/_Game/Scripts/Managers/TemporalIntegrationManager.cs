@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+[AddComponentMenu("_Game/Scripts/Managers/TemporalIntegrationManager")]
 public class TemporalIntegrationManager : MonoBehaviour
 {
     [Header("Time-Responsive Objects")]
