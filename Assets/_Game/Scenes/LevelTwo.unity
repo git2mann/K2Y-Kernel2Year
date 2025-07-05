@@ -743,7 +743,7 @@ Transform:
   m_GameObject: {fileID: 231345710}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.53, y: -2.26, z: -10}
+  m_LocalPosition: {x: -5.63, y: -2.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1910,15 +1910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40595a33c45966742b7ade343bc40599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderers:
-  - {fileID: 320802538}
-  - {fileID: 1410047053}
-  - {fileID: 1001999125}
-  - {fileID: 944915074}
-  flickerSpeed: 0.1
-  scaleAmount: 0.05
-  colorShiftAmount: 0.2
-  originalScale: {x: 0, y: 0, z: 0}
 --- !u!61 &592217069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2727,7 +2718,7 @@ Transform:
   m_GameObject: {fileID: 818194671}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.53, y: -2.26, z: -10}
+  m_LocalPosition: {x: -5.63, y: -2.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3462,7 +3453,7 @@ Transform:
   m_GameObject: {fileID: 1068178436}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.53, y: -2.26, z: 0}
+  m_LocalPosition: {x: -5.63, y: -2.3, z: 0}
   m_LocalScale: {x: 0.619528, y: 0.6570794, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6112,8 +6103,8 @@ GameObject:
   - component: {fileID: 1687817011}
   - component: {fileID: 1687817010}
   - component: {fileID: 1687817013}
-  - component: {fileID: 1687817014}
   - component: {fileID: 1687817015}
+  - component: {fileID: 1687817016}
   m_Layer: 0
   m_Name: monochrome_tilemap_transparent_packed_55
   m_TagString: Untagged
@@ -6237,20 +6228,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1687817014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687817009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cb9466cc00ca5e4d913e611d6228b9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  progressTracker: {fileID: 2029637935}
-  lockedPopup: {fileID: 1470340793}
 --- !u!114 &1687817015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6267,6 +6244,20 @@ MonoBehaviour:
   flickerSpeed: 0.1
   scaleAmount: 1
   colorShiftAmount: 0.6
+--- !u!114 &1687817016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687817009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66464de127c87545bbdb6e98051a1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progressTracker: {fileID: 2029637935}
+  lockedPopup: {fileID: 1470340793}
 --- !u!1 &1714178202
 GameObject:
   m_ObjectHideFlags: 0
