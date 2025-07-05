@@ -14,6 +14,7 @@ public class UnexplosionEffect : MonoBehaviour
     [SerializeField] private float unexplosionRadius = 3f; // How far particles start from center
     [SerializeField] private float particleLifetime = 1.2f; // Slightly shorter
     [SerializeField] private bool smoothMovement = true; // New: Use smooth interpolation
+    [SerializeField] private float explosionSpeed = 1.0f; // NEW: tweakable explosion speed
     
     [Header("Temporal Behavior")]
     [SerializeField] private bool respondToTimeDirection = true; // Auto-trigger based on time
@@ -139,34 +140,34 @@ public class UnexplosionEffect : MonoBehaviour
     IEnumerator ExplosionSequence()
     {
         isAnimating = true;
-        
+
         Debug.Log($"Starting explosion sequence! ({gameObject.name})");
-        
+
         // Start with whole object
         SetExplodedState(false);
-        
+
         // Brief moment to see the object
-        yield return new WaitForSeconds(0.1f);
-        
+        yield return new WaitForSeconds(0.1f * (1f / Mathf.Max(0.01f, explosionSpeed)));
+
         // Create outward-moving particles
         CreateKenneySmokeUnexplosion(false); // false = outward movement
-        
+
         // Play explosion sound
         if (explosionSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(explosionSound);
         }
-        
+
         // Hide object and show exploded state
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.2f * (1f / Mathf.Max(0.01f, explosionSpeed)));
         SetExplodedState(true);
-        
+
         // Wait for particles to finish
-        yield return new WaitForSeconds(particleLifetime * 0.6f);
-        
+        yield return new WaitForSeconds(particleLifetime * 0.6f * (1f / Mathf.Max(0.01f, explosionSpeed)));
+
         isCurrentlyExploded = true;
         isAnimating = false;
-        
+
         Debug.Log($"Explosion complete! ({gameObject.name})");
     }
     
@@ -251,24 +252,25 @@ public class UnexplosionEffect : MonoBehaviour
             rb.AddTorque(Random.Range(-20f, 20f));
             
             // Start the particle animation and cleanup
-            StartCoroutine(AnimateKenneySmoke(smokeParticle, sr, rb, moveInward));
+            StartCoroutine(AnimateKenneySmoke(smokeParticle, sr, rb, moveInward, moveInward ? 1f : explosionSpeed));
         }
     }
     
-    IEnumerator AnimateKenneySmoke(GameObject particle, SpriteRenderer sr, Rigidbody2D rb, bool moveInward)
+    IEnumerator AnimateKenneySmoke(GameObject particle, SpriteRenderer sr, Rigidbody2D rb, bool moveInward, float speedMultiplier = 1f)
     {
         Vector3 originalScale = particle.transform.localScale;
         Color originalColor = sr.color;
         float elapsed = 0f;
-        
+        float lifetime = particleLifetime * (1f / Mathf.Max(0.01f, speedMultiplier));
+
         // Optional: Cycle through different smoke sprites for animation
         float spriteChangeInterval = 0.1f;
         float lastSpriteChange = 0f;
         
-        while (elapsed < particleLifetime && particle != null)
+        while (elapsed < lifetime && particle != null)
         {
             elapsed += Time.deltaTime; // Use regular deltaTime (not affected by our time direction)
-            float progress = elapsed / particleLifetime;
+            float progress = elapsed / lifetime;
             
             // Scale behavior depends on direction
             float scale;

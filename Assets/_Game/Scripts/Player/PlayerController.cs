@@ -3,7 +3,8 @@
 // ============================================
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D), typeof(SpriteRenderer))]
+[AddComponentMenu("_Game/Scripts/Player/PlayerController")]
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]

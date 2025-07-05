@@ -9,7 +9,7 @@ public class SceneLoader : MonoBehaviour
     public CanvasGroup canvasGroup;
     public Image glitchFlashImage;
     public float fadeDuration = 1f;
-    public string sceneToLoad = "LevelOne";
+    public string sceneToLoad = "Seans Level";
 
     public void LoadLevelOne()
     {

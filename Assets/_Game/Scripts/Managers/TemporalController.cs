@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("_Game/Scripts/Managers/TemporalController")]
 public class TemporalController : MonoBehaviour
 {
     [Header("Time Direction Settings")]

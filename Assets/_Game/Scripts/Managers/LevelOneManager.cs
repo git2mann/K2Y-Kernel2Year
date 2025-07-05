@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+[AddComponentMenu("_Game/Scripts/Managers/LevelOneManager")]
 public class LevelOneManager : MonoBehaviour
 {
     [Header("Level Components")]

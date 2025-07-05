@@ -13,6 +13,7 @@ public class TemporalUnexplosionEffect : MonoBehaviour
     [SerializeField] private float particleSpeed = 3f;
     [SerializeField] private float unexplosionRadius = 3f;
     [SerializeField] private float particleLifetime = 1.2f;
+    [SerializeField] private float explosionSpeed = 1.0f; // NEW: tweakable explosion speed (1 = normal, <1 = slower, >1 = faster)
     
     [Header("Temporal Behavior")]
     [SerializeField] private bool respondToTimeDirection = true;
@@ -127,25 +128,27 @@ public class TemporalUnexplosionEffect : MonoBehaviour
     IEnumerator ExplosionSequence()
     {
         isAnimating = true;
-        
+
         Debug.Log("Starting explosion sequence!");
-        
+
         SetExplodedState(false);
         CreateTemporalParticles(false);
-        
+
         if (explosionSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(explosionSound);
         }
-        
-        yield return new WaitForSeconds(0.2f);
+
+        // Wait for explosionSpeed-scaled time before hiding object
+        yield return new WaitForSeconds(0.2f * (1f / Mathf.Max(0.01f, explosionSpeed)));
         SetExplodedState(true);
-        
-        yield return new WaitForSeconds(particleLifetime * 0.8f);
-        
+
+        // Wait for particles to finish, scaled by explosionSpeed
+        yield return new WaitForSeconds(particleLifetime * 0.8f * (1f / Mathf.Max(0.01f, explosionSpeed)));
+
         isAnimating = false;
         isCurrentlyExploded = true;
-        
+
         Debug.Log("Explosion complete!");
     }
     
@@ -196,20 +199,21 @@ public class TemporalUnexplosionEffect : MonoBehaviour
             }
             
             activeParticles.Add(smokeParticle);
-            StartCoroutine(AnimateTemporalParticle(smokeParticle, sr, rb, moveInward));
+            StartCoroutine(AnimateTemporalParticle(smokeParticle, sr, rb, moveInward, moveInward ? 1f : explosionSpeed));
         }
     }
     
-    IEnumerator AnimateTemporalParticle(GameObject particle, SpriteRenderer sr, Rigidbody2D rb, bool moveInward)
+    IEnumerator AnimateTemporalParticle(GameObject particle, SpriteRenderer sr, Rigidbody2D rb, bool moveInward, float speedMultiplier = 1f)
     {
         Vector3 originalScale = particle.transform.localScale;
         Color originalColor = sr.color;
         float elapsed = 0f;
-        
-        while (elapsed < particleLifetime && particle != null)
+        float lifetime = particleLifetime * (1f / Mathf.Max(0.01f, speedMultiplier));
+
+        while (elapsed < lifetime && particle != null)
         {
             elapsed += Time.deltaTime;
-            float progress = elapsed / particleLifetime;
+            float progress = elapsed / lifetime;
             
             float scale = moveInward ? Mathf.Lerp(1f, 0.2f, progress) : Mathf.Lerp(0.2f, 1f, progress);
             particle.transform.localScale = originalScale * scale;

@@ -60,21 +60,11 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-<<<<<<< HEAD
         "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "K2Y-Kernel2Year-leon-development.sln"
-=======
-        "*.unity": "yaml",
-    },
-    "explorer.fileNesting.enabled": true,
-    "explorer.fileNesting.patterns": {
-        "*.sln": "*.csproj",
-    },
-    "dotnet.defaultSolution": "K2Y-Kernel2Year.sln"
->>>>>>> origin/zoe-development
+    "dotnet.defaultSolution": "K2Y-Kernel2Year-failed.sln"
 }
