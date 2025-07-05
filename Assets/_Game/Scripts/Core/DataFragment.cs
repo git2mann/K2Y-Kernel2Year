@@ -8,10 +8,21 @@ public class DataFragment : MonoBehaviour, IItem
     public int worth = 5;
 
     private AudioSource audioSource;
+    private Vector3 startPos;
+    public float floatSpeed = 1f;
+    public float floatHeight = 0.2f;
 
     private void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+        startPos = transform.position;
+    }
+
+    private void Update()
+    {
+        // Idle float animation
+        float newY = Mathf.Sin(Time.time * floatSpeed) * floatHeight;
+        transform.position = startPos + new Vector3(0f, newY, 0f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -60,7 +71,7 @@ public class DataFragment : MonoBehaviour, IItem
             yield return null;
         }
 
-        // Wait for sound to finish if playing
+
         if (audioSource != null && audioSource.clip != null)
         {
             yield return new WaitForSeconds(audioSource.clip.length - duration);

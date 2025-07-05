@@ -37,7 +37,7 @@ public class GlitchDeathEffect : MonoBehaviour
 
         // Play death sound
         if (audioSource && deathSound)
-            audioSource.PlayOneShot(deathSound);
+            audioSource.PlayOneShot(deathSound,20f);
 
         StartCoroutine(FlickerThenRestart());
     }
