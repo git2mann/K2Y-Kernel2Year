@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class ExitTerminal : MonoBehaviour
+public class ExitTerminal2 : MonoBehaviour
 {
     public FragmentProgressTracker progressTracker;
     public GameObject lockedPopup;
@@ -16,7 +16,8 @@ public class ExitTerminal : MonoBehaviour
             Debug.Log("EXIT UNLOCKED. Level complete!");
 
 
-                SceneManager.LoadScene("LevelTwo");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
 
         }
         else

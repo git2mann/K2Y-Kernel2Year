@@ -15,11 +15,9 @@ public class PlatformRebuilder : MonoBehaviour
     public float moveSpeed = 2f;
 
     private Vector3 moveTarget;
-
-    // Called externally when the player triggers the build
     public void StartBuilding()
 {
-    // Force platform to start at Point A
+
     transform.position = pointA.position;
     moveTarget = pointB.position;
 
@@ -29,16 +27,15 @@ public class PlatformRebuilder : MonoBehaviour
 
     void Start()
     {
-        // Set initial position and movement target
+
         transform.position = pointA.position;
         moveTarget = pointB.position;
 
-        // Hide all chunks at the start
+
         foreach (GameObject chunk in chunks)
             chunk.SetActive(false);
 
-        // ❌ REMOVE this line to prevent auto-building:
-        // StartCoroutine(BuildPlatform());
+
     }
 
     void Update()
