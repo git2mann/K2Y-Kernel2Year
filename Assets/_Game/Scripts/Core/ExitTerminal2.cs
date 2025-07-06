@@ -14,11 +14,7 @@ public class ExitTerminal2 : MonoBehaviour
         if (progressTracker.currentPoints >= progressTracker.maxPoints)
         {
             Debug.Log("EXIT UNLOCKED. Level complete!");
-
-
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-
+            SceneManager.LoadScene("LevelThree");
         }
         else
         {
@@ -27,8 +23,6 @@ public class ExitTerminal2 : MonoBehaviour
             {
                 lockedPopup.SetActive(true);
                 StartCoroutine(HidePopupAfterSeconds(3f));
-
-                
             }
         }
     }

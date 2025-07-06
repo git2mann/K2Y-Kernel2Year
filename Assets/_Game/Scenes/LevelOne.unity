@@ -3019,8 +3019,8 @@ MonoBehaviour:
   doubleJumpParticles: {fileID: 0}
   particleSpawner: {fileID: 0}
   playerAudioSource: {fileID: 0}
-  jumpSound: {fileID: 8300000, guid: 484e46cf021db489e9336eed1320346e, type: 3}
-  doubleJumpSound: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: 8f58e92a92c06e84b8306783e897f0ec, type: 3}
+  doubleJumpSound: {fileID: 8300000, guid: 8f58e92a92c06e84b8306783e897f0ec, type: 3}
   landSound: {fileID: 0}
   wallCheckLeft: {fileID: 0}
   wallCheckRight: {fileID: 0}

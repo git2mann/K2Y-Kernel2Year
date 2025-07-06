@@ -3029,7 +3029,7 @@ MonoBehaviour:
   canvasGroup: {fileID: 1973344181}
   glitchFlashImage: {fileID: 1169566606}
   fadeDuration: 1
-  sceneToLoad: Seans Level
+  sceneToLoad: LevelOne
 --- !u!4 &1985925459
 Transform:
   m_ObjectHideFlags: 0
