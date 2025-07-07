@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "K2Y-Kernel2Year-failed.sln"
+    "dotnet.defaultSolution": "K2Y-Kernel2Year - Leon Build WebGL.sln"
 }
